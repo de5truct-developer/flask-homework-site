@@ -79,5 +79,5 @@ def add_homework(username, title, description, image):
         conn.commit()
         return homeworks
 
-
-create_database()
+if(__name__ == "__main__"):
+    create_database()
